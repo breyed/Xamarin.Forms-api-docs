@@ -22,10 +22,9 @@
   </Base>
   <Interfaces />
   <Docs>
-    <typeparam name="T">To be added.</typeparam>
-    <summary>Provides idiom-specific implementation of <paramref name="T" /> for the current target idiom.</summary>
-    <remarks>
-    </remarks>
+    <typeparam name="T">The type for which to get a platform-specific implementation.</typeparam>
+    <summary>Provides idiom-specific value for <paramref name="T" /> for the current target idiom.</summary>
+    <remarks>To be added.</remarks>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -66,7 +65,7 @@
       </ReturnValue>
       <Docs>
         <summary>Gets or sets the value applied on desktop systems.</summary>
-        <value>To be added.</value>
+        <value>The value applied on desktop systems.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -123,9 +122,8 @@
       </ReturnValue>
       <Docs>
         <summary>Gets or sets the value applied on Phone-like devices.</summary>
-        <value>A T.</value>
-        <remarks>
-        </remarks>
+        <value>The value applied on Phone-like devices.</value>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="Tablet">
@@ -150,9 +148,8 @@
       </ReturnValue>
       <Docs>
         <summary>Gets or sets the value applied on Tablet-like devices.</summary>
-        <value>A T.</value>
-        <remarks>
-        </remarks>
+        <value>The value applied on Tablet-like devices.</value>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="TV">
@@ -170,9 +167,8 @@
       </ReturnValue>
       <Docs>
         <summary>Gets or sets the value applied on TV-like devices.</summary>
-        <value>A T.</value>
-        <remarks>
-        </remarks>
+        <value>The value applied on TV-like devices.</value>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="Watch">
@@ -189,8 +185,8 @@
         <ReturnType>T</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
-        <value>To be added.</value>
+        <summary>Gets or sets the value applied on watch-like devices.</summary>
+        <value>The value applied on watch-like devices.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
