@@ -2,9 +2,10 @@
   <TypeSignature Language="C#" Value="public abstract class Element : Xamarin.Forms.BindableObject, Xamarin.Forms.IElementController, Xamarin.Forms.Internals.INameScope" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit Element extends Xamarin.Forms.BindableObject implements class Xamarin.Forms.IElementController, class Xamarin.Forms.Internals.INameScope" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.Element" />
-  <TypeSignature Language="F#" Value="type Element = class&#xA;    inherit BindableObject&#xA;    interface IElement&#xA;    interface INameScope&#xA;    interface IElementController&#xA;    interface IStyleSelectable" />
+  <TypeSignature Language="F#" Value="type Element = class&#xA;    inherit BindableObject&#xA;    interface INameScope&#xA;    interface IElementController" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <AssemblyVersion>1.1.0.0</AssemblyVersion>
     <AssemblyVersion>1.2.0.0</AssemblyVersion>
@@ -75,6 +76,7 @@
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Element.#ctor" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
@@ -98,6 +100,7 @@
       <MemberSignature Language="F#" Value="member this.AutomationId : string with get, set" Usage="Xamarin.Forms.Element.AutomationId" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
       </AssemblyInfo>
@@ -117,6 +120,7 @@
       <MemberSignature Language="F#" Value="member this.ChildAdded : EventHandler&lt;Xamarin.Forms.ElementEventArgs&gt; " Usage="member this.ChildAdded : System.EventHandler&lt;Xamarin.Forms.ElementEventArgs&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
@@ -142,6 +146,7 @@
       <MemberSignature Language="F#" Value="member this.ChildRemoved : EventHandler&lt;Xamarin.Forms.ElementEventArgs&gt; " Usage="member this.ChildRemoved : System.EventHandler&lt;Xamarin.Forms.ElementEventArgs&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
@@ -167,6 +172,7 @@
       <MemberSignature Language="F#" Value="member this.ClassId : string with get, set" Usage="Xamarin.Forms.Element.ClassId" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
@@ -193,6 +199,7 @@
       <MemberSignature Language="F#" Value=" staticval mutable ClassIdProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.Element.ClassIdProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
@@ -218,6 +225,7 @@
       <MemberSignature Language="F#" Value="member this.DescendantAdded : EventHandler&lt;Xamarin.Forms.ElementEventArgs&gt; " Usage="member this.DescendantAdded : System.EventHandler&lt;Xamarin.Forms.ElementEventArgs&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
@@ -243,6 +251,7 @@
       <MemberSignature Language="F#" Value="member this.DescendantRemoved : EventHandler&lt;Xamarin.Forms.ElementEventArgs&gt; " Usage="member this.DescendantRemoved : System.EventHandler&lt;Xamarin.Forms.ElementEventArgs&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
@@ -271,15 +280,16 @@
         <InterfaceMember>M:Xamarin.Forms.IElementController.Descendants</InterfaceMember>
       </Implements>
       <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.ComponentModel.EditorBrowsable</AttributeName>
+          <AttributeName>System.Runtime.CompilerServices.IteratorStateMachine(typeof(Xamarin.Forms.Element/&lt;Descendants&gt;d__83))</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>System.Runtime.CompilerServices.IteratorStateMachine(typeof(Xamarin.Forms.Element/&lt;Descendants&gt;d__83))</AttributeName>
+          <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -302,12 +312,13 @@
         <InterfaceMember>P:Xamarin.Forms.IElementController.EffectControlProvider</InterfaceMember>
       </Implements>
       <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.ComponentModel.EditorBrowsable</AttributeName>
+          <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -329,12 +340,13 @@
         <InterfaceMember>M:Xamarin.Forms.IElementController.EffectIsAttached(System.String)</InterfaceMember>
       </Implements>
       <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.ComponentModel.EditorBrowsable</AttributeName>
+          <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -357,6 +369,7 @@
       <MemberSignature Language="F#" Value="member this.Effects : System.Collections.Generic.IList&lt;Xamarin.Forms.Effect&gt;" Usage="Xamarin.Forms.Element.Effects" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
       </AssemblyInfo>
@@ -380,6 +393,7 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -402,6 +416,7 @@
       <MemberSignature Language="F#" Value="static member GetMenu : Xamarin.Forms.BindableObject -&gt; Xamarin.Forms.Menu" Usage="Xamarin.Forms.Element.GetMenu bindable" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
       </AssemblyInfo>
@@ -425,6 +440,7 @@
       <MemberSignature Language="F#" Value="member this.Id : Guid" Usage="Xamarin.Forms.Element.Id" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
@@ -454,12 +470,13 @@
         <InterfaceMember>P:Xamarin.Forms.IElementController.LogicalChildren</InterfaceMember>
       </Implements>
       <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.ComponentModel.EditorBrowsable</AttributeName>
+          <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -478,6 +495,7 @@
       <MemberSignature Language="F#" Value=" staticval mutable MenuProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.Element.MenuProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
       </AssemblyInfo>
@@ -496,6 +514,7 @@
       <MemberSignature Language="F#" Value="override this.OnBindingContextChanged : unit -&gt; unit" Usage="element.OnBindingContextChanged " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
@@ -522,6 +541,7 @@
       <MemberSignature Language="F#" Value="abstract member OnChildAdded : Xamarin.Forms.Element -&gt; unit&#xA;override this.OnChildAdded : Xamarin.Forms.Element -&gt; unit" Usage="element.OnChildAdded child" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
@@ -551,6 +571,7 @@
       <MemberSignature Language="F#" Value="abstract member OnChildRemoved : Xamarin.Forms.Element -&gt; unit&#xA;override this.OnChildRemoved : Xamarin.Forms.Element -&gt; unit" Usage="element.OnChildRemoved child" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
@@ -580,6 +601,7 @@
       <MemberSignature Language="F#" Value="abstract member OnParentSet : unit -&gt; unit&#xA;override this.OnParentSet : unit -&gt; unit" Usage="element.OnParentSet " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
@@ -606,6 +628,7 @@
       <MemberSignature Language="F#" Value="override this.OnPropertyChanged : string -&gt; unit" Usage="element.OnPropertyChanged propertyName" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
       </AssemblyInfo>
@@ -637,6 +660,7 @@
         <InterfaceMember>P:Xamarin.Forms.IElement.Parent</InterfaceMember>
       </Implements>
       <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
@@ -663,6 +687,7 @@
       <MemberSignature Language="F#" Value="member this.ParentView : Xamarin.Forms.VisualElement" Usage="Xamarin.Forms.Element.ParentView" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
@@ -697,12 +722,13 @@
         <InterfaceMember>P:Xamarin.Forms.IElementController.Platform</InterfaceMember>
       </Implements>
       <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.ComponentModel.EditorBrowsable</AttributeName>
+          <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -724,12 +750,13 @@
         <InterfaceMember>E:Xamarin.Forms.IElementController.PlatformSet</InterfaceMember>
       </Implements>
       <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.ComponentModel.EditorBrowsable</AttributeName>
+          <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -747,12 +774,13 @@
       <MemberSignature Language="F#" Value="member this.RealParent : Xamarin.Forms.Element" Usage="Xamarin.Forms.Element.RealParent" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.ComponentModel.EditorBrowsable</AttributeName>
+          <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -771,6 +799,7 @@
       <MemberSignature Language="F#" Value="override this.RemoveDynamicResource : Xamarin.Forms.BindableProperty -&gt; unit" Usage="element.RemoveDynamicResource property" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.3.0</AssemblyVersion>
         <AssemblyVersion>1.4.0.0</AssemblyVersion>
@@ -798,6 +827,7 @@
       <MemberSignature Language="F#" Value="override this.SetDynamicResource : Xamarin.Forms.BindableProperty * string -&gt; unit" Usage="element.SetDynamicResource (property, key)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.3.0</AssemblyVersion>
         <AssemblyVersion>1.4.0.0</AssemblyVersion>
@@ -827,6 +857,7 @@
       <MemberSignature Language="F#" Value="static member SetMenu : Xamarin.Forms.BindableObject * Xamarin.Forms.Menu -&gt; unit" Usage="Xamarin.Forms.Element.SetMenu (bindable, menu)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
       </AssemblyInfo>
@@ -854,12 +885,13 @@
         <InterfaceMember>M:Xamarin.Forms.IElementController.SetValueFromRenderer(Xamarin.Forms.BindableProperty,System.Object)</InterfaceMember>
       </Implements>
       <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.ComponentModel.EditorBrowsable</AttributeName>
+          <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -886,12 +918,13 @@
         <InterfaceMember>M:Xamarin.Forms.IElementController.SetValueFromRenderer(Xamarin.Forms.BindablePropertyKey,System.Object)</InterfaceMember>
       </Implements>
       <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.ComponentModel.EditorBrowsable</AttributeName>
+          <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -915,6 +948,7 @@
       <MemberSignature Language="F#" Value="member this.StyleId : string with get, set" Usage="Xamarin.Forms.Element.StyleId" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
@@ -943,6 +977,7 @@
         <InterfaceMember>M:Xamarin.Forms.IElementController.SetValueFromRenderer(Xamarin.Forms.BindableProperty,System.Object)</InterfaceMember>
       </Implements>
       <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.3.0</AssemblyVersion>
         <AssemblyVersion>1.4.0.0</AssemblyVersion>
@@ -973,6 +1008,7 @@
         <InterfaceMember>M:Xamarin.Forms.Internals.INameScope.RegisterName(System.String,System.Object)</InterfaceMember>
       </Implements>
       <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

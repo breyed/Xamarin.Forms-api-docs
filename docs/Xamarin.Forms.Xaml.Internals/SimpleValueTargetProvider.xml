@@ -2,7 +2,7 @@
   <TypeSignature Language="C#" Value="public class SimpleValueTargetProvider : Xamarin.Forms.Xaml.IReferenceProvider" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit SimpleValueTargetProvider extends System.Object implements class Xamarin.Forms.Xaml.IProvideValueTarget, class Xamarin.Forms.Xaml.IReferenceProvider" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.Xaml.Internals.SimpleValueTargetProvider" />
-  <TypeSignature Language="F#" Value="type SimpleValueTargetProvider = class&#xA;    interface IProvideParentValues&#xA;    interface IProvideValueTarget&#xA;    interface IReferenceProvider" />
+  <TypeSignature Language="F#" Value="type SimpleValueTargetProvider = class&#xA;    interface IProvideValueTarget&#xA;    interface IReferenceProvider" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Xaml</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>

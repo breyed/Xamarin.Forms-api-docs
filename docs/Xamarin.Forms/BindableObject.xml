@@ -5,6 +5,7 @@
   <TypeSignature Language="F#" Value="type BindableObject = class&#xA;    interface INotifyPropertyChanged&#xA;    interface IDynamicResourceHandler" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <AssemblyVersion>1.1.0.0</AssemblyVersion>
     <AssemblyVersion>1.2.0.0</AssemblyVersion>
@@ -123,6 +124,7 @@ public static void OneWayDemo ()
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.BindableObject.#ctor" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
@@ -145,6 +147,7 @@ public static void OneWayDemo ()
       <MemberSignature Language="F#" Value="member this.ApplyBindings : unit -&gt; unit" Usage="bindableObject.ApplyBindings " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
       </AssemblyInfo>
@@ -164,6 +167,7 @@ public static void OneWayDemo ()
       <MemberSignature Language="F#" Value="member this.BindingContext : obj with get, set" Usage="Xamarin.Forms.BindableObject.BindingContext" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
@@ -200,6 +204,7 @@ Debug.WriteLine (label.Text); //prints "John Doe"
       <MemberSignature Language="F#" Value="member this.BindingContextChanged : EventHandler " Usage="member this.BindingContextChanged : System.EventHandler " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
@@ -225,6 +230,7 @@ Debug.WriteLine (label.Text); //prints "John Doe"
       <MemberSignature Language="F#" Value=" staticval mutable BindingContextProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.BindableObject.BindingContextProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
@@ -279,6 +285,7 @@ stack.BindingContext = new {Jane = new {Name = "Jane Doe"}, John = new {Name = "
       <MemberSignature Language="F#" Value="member this.ClearValue : Xamarin.Forms.BindableProperty -&gt; unit" Usage="bindableObject.ClearValue property" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
@@ -309,6 +316,7 @@ stack.BindingContext = new {Jane = new {Name = "Jane Doe"}, John = new {Name = "
       <MemberSignature Language="F#" Value="member this.ClearValue : Xamarin.Forms.BindablePropertyKey -&gt; unit" Usage="bindableObject.ClearValue propertyKey" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
@@ -339,6 +347,7 @@ stack.BindingContext = new {Jane = new {Name = "Jane Doe"}, John = new {Name = "
       <MemberSignature Language="F#" Value="member this.GetValue : Xamarin.Forms.BindableProperty -&gt; obj" Usage="bindableObject.GetValue property" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
@@ -386,12 +395,13 @@ class MyBindable : BindableObject
       <MemberSignature Language="F#" Value="member this.GetValues : Xamarin.Forms.BindableProperty * Xamarin.Forms.BindableProperty -&gt; obj[]" Usage="bindableObject.GetValues (property0, property1)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.ComponentModel.EditorBrowsable</AttributeName>
+          <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -416,12 +426,13 @@ class MyBindable : BindableObject
       <MemberSignature Language="F#" Value="member this.GetValues : Xamarin.Forms.BindableProperty * Xamarin.Forms.BindableProperty * Xamarin.Forms.BindableProperty -&gt; obj[]" Usage="bindableObject.GetValues (property0, property1, property2)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.ComponentModel.EditorBrowsable</AttributeName>
+          <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -449,6 +460,7 @@ class MyBindable : BindableObject
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -472,6 +484,7 @@ class MyBindable : BindableObject
       <MemberSignature Language="F#" Value="abstract member OnBindingContextChanged : unit -&gt; unit&#xA;override this.OnBindingContextChanged : unit -&gt; unit" Usage="bindableObject.OnBindingContextChanged " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
@@ -498,6 +511,7 @@ class MyBindable : BindableObject
       <MemberSignature Language="F#" Value="abstract member OnPropertyChanged : string -&gt; unit&#xA;override this.OnPropertyChanged : string -&gt; unit" Usage="bindableObject.OnPropertyChanged propertyName" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
@@ -534,6 +548,7 @@ class MyBindable : BindableObject
       <MemberSignature Language="F#" Value="abstract member OnPropertyChanging : string -&gt; unit&#xA;override this.OnPropertyChanging : string -&gt; unit" Usage="bindableObject.OnPropertyChanging propertyName" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
@@ -567,7 +582,11 @@ class MyBindable : BindableObject
       <MemberSignature Language="DocId" Value="E:Xamarin.Forms.BindableObject.PropertyChanged" />
       <MemberSignature Language="F#" Value="member this.PropertyChanged : System.ComponentModel.PropertyChangedEventHandler " Usage="member this.PropertyChanged : System.ComponentModel.PropertyChangedEventHandler " />
       <MemberType>Event</MemberType>
+      <Implements>
+        <InterfaceMember>E:System.ComponentModel.INotifyPropertyChanged.PropertyChanged</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
@@ -593,6 +612,7 @@ class MyBindable : BindableObject
       <MemberSignature Language="F#" Value="member this.PropertyChanging : Xamarin.Forms.PropertyChangingEventHandler " Usage="member this.PropertyChanging : Xamarin.Forms.PropertyChangingEventHandler " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
@@ -618,6 +638,7 @@ class MyBindable : BindableObject
       <MemberSignature Language="F#" Value="member this.RemoveBinding : Xamarin.Forms.BindableProperty -&gt; unit" Usage="bindableObject.RemoveBinding property" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
@@ -648,6 +669,7 @@ class MyBindable : BindableObject
       <MemberSignature Language="F#" Value="member this.SetBinding : Xamarin.Forms.BindableProperty * Xamarin.Forms.BindingBase -&gt; unit" Usage="bindableObject.SetBinding (targetProperty, binding)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
@@ -686,6 +708,7 @@ label.SetBinding (Label.TextProperty, new Binding ("Name"));
       <MemberSignature Language="F#" Value="static member SetInheritedBindingContext : Xamarin.Forms.BindableObject * obj -&gt; unit" Usage="Xamarin.Forms.BindableObject.SetInheritedBindingContext (bindable, value)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
@@ -697,7 +720,7 @@ label.SetBinding (Label.TextProperty, new Binding ("Name"));
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.ComponentModel.EditorBrowsable</AttributeName>
+          <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -722,6 +745,7 @@ label.SetBinding (Label.TextProperty, new Binding ("Name"));
       <MemberSignature Language="F#" Value="member this.SetValue : Xamarin.Forms.BindableProperty * obj -&gt; unit" Usage="bindableObject.SetValue (property, value)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
@@ -770,6 +794,7 @@ class MyBindable : BindableObject
       <MemberSignature Language="F#" Value="member this.SetValue : Xamarin.Forms.BindablePropertyKey * obj -&gt; unit" Usage="bindableObject.SetValue (propertyKey, value)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
@@ -818,12 +843,13 @@ class MyBindable : BindableObject
       <MemberSignature Language="F#" Value="member this.SetValueCore : Xamarin.Forms.BindableProperty * obj * Xamarin.Forms.Internals.SetValueFlags -&gt; unit" Usage="bindableObject.SetValueCore (property, value, attributes)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.ComponentModel.EditorBrowsable</AttributeName>
+          <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -849,6 +875,7 @@ class MyBindable : BindableObject
       <MemberSignature Language="F#" Value="member this.UnapplyBindings : unit -&gt; unit" Usage="bindableObject.UnapplyBindings " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
@@ -879,6 +906,7 @@ class MyBindable : BindableObject
         <InterfaceMember>M:Xamarin.Forms.Internals.IDynamicResourceHandler.SetDynamicResource(Xamarin.Forms.BindableProperty,System.String)</InterfaceMember>
       </Implements>
       <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>

@@ -5,6 +5,7 @@
   <TypeSignature Language="F#" Value="type Device = class" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <AssemblyVersion>1.1.0.0</AssemblyVersion>
     <AssemblyVersion>1.2.0.0</AssemblyVersion>
@@ -30,6 +31,7 @@
       <MemberSignature Language="F#" Value="val mutable Android : string" Usage="Xamarin.Forms.Device.Android" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
       </AssemblyInfo>
@@ -48,6 +50,7 @@
       <MemberSignature Language="F#" Value="static member BeginInvokeOnMainThread : Action -&gt; unit" Usage="Xamarin.Forms.Device.BeginInvokeOnMainThread action" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
@@ -86,12 +89,13 @@ Device.BeginInvokeOnMainThread (() => {
       <MemberSignature Language="F#" Value="member this.Flags : System.Collections.Generic.IReadOnlyList&lt;string&gt;" Usage="Xamarin.Forms.Device.Flags" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.ComponentModel.EditorBrowsable</AttributeName>
+          <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -111,6 +115,7 @@ Device.BeginInvokeOnMainThread (() => {
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -133,12 +138,13 @@ Device.BeginInvokeOnMainThread (() => {
       <MemberSignature Language="F#" Value="static member GetAssemblies : unit -&gt; System.Reflection.Assembly[]" Usage="Xamarin.Forms.Device.GetAssemblies " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.ComponentModel.EditorBrowsable</AttributeName>
+          <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -158,6 +164,7 @@ Device.BeginInvokeOnMainThread (() => {
       <MemberSignature Language="F#" Value="static member GetNamedSize : Xamarin.Forms.NamedSize * Type -&gt; double" Usage="Xamarin.Forms.Device.GetNamedSize (size, targetElementType)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
         <AssemblyVersion>1.4.0.0</AssemblyVersion>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
@@ -186,6 +193,7 @@ Device.BeginInvokeOnMainThread (() => {
       <MemberSignature Language="F#" Value="static member GetNamedSize : Xamarin.Forms.NamedSize * Xamarin.Forms.Element -&gt; double" Usage="Xamarin.Forms.Device.GetNamedSize (size, targetElement)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
         <AssemblyVersion>1.4.0.0</AssemblyVersion>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
@@ -214,12 +222,13 @@ Device.BeginInvokeOnMainThread (() => {
       <MemberSignature Language="F#" Value="static member GetNamedSize : Xamarin.Forms.NamedSize * Type * bool -&gt; double" Usage="Xamarin.Forms.Device.GetNamedSize (size, targetElementType, useOldSizes)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.ComponentModel.EditorBrowsable</AttributeName>
+          <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -247,6 +256,7 @@ Device.BeginInvokeOnMainThread (() => {
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -264,6 +274,7 @@ Device.BeginInvokeOnMainThread (() => {
       <MemberSignature Language="F#" Value="member this.Idiom : Xamarin.Forms.TargetIdiom" Usage="Xamarin.Forms.Device.Idiom" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
@@ -290,12 +301,13 @@ Device.BeginInvokeOnMainThread (() => {
       <MemberSignature Language="F#" Value=" staticval mutable info : Xamarin.Forms.Internals.DeviceInfo" Usage="Xamarin.Forms.Device.info" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.ComponentModel.EditorBrowsable</AttributeName>
+          <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -313,12 +325,13 @@ Device.BeginInvokeOnMainThread (() => {
       <MemberSignature Language="F#" Value="member this.Info : Xamarin.Forms.Internals.DeviceInfo with get, set" Usage="Xamarin.Forms.Device.Info" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.ComponentModel.EditorBrowsable</AttributeName>
+          <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -337,6 +350,7 @@ Device.BeginInvokeOnMainThread (() => {
       <MemberSignature Language="F#" Value="val mutable iOS : string" Usage="Xamarin.Forms.Device.iOS" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
       </AssemblyInfo>
@@ -355,12 +369,13 @@ Device.BeginInvokeOnMainThread (() => {
       <MemberSignature Language="F#" Value="member this.IsInvokeRequired : bool" Usage="Xamarin.Forms.Device.IsInvokeRequired" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.ComponentModel.EditorBrowsable</AttributeName>
+          <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -379,6 +394,7 @@ Device.BeginInvokeOnMainThread (() => {
       <MemberSignature Language="F#" Value="val mutable macOS : string" Usage="Xamarin.Forms.Device.macOS" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
       </AssemblyInfo>
@@ -397,6 +413,7 @@ Device.BeginInvokeOnMainThread (() => {
       <MemberSignature Language="F#" Value="static member OnPlatform : Action * Action * Action * Action -&gt; unit" Usage="Xamarin.Forms.Device.OnPlatform (iOS, Android, WinPhone, Default)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
@@ -444,6 +461,7 @@ Device.OnPlatform (iOS: () => label.Font = Font.OfSize ("HelveticaNeue-UltraLigh
       <MemberSignature Language="F#" Value="static member OnPlatform : 'T * 'T * 'T -&gt; 'T" Usage="Xamarin.Forms.Device.OnPlatform (iOS, Android, WinPhone)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
@@ -494,6 +512,7 @@ button.HeightRequest = Device.OnPlatform (20,30,30);
       <MemberSignature Language="F#" Value="static member OpenUri : Uri -&gt; unit" Usage="Xamarin.Forms.Device.OpenUri uri" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
@@ -522,6 +541,7 @@ button.HeightRequest = Device.OnPlatform (20,30,30);
       <MemberSignature Language="F#" Value="member this.OS : Xamarin.Forms.TargetPlatform" Usage="Xamarin.Forms.Device.OS" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
@@ -553,12 +573,13 @@ button.HeightRequest = Device.OnPlatform (20,30,30);
       <MemberSignature Language="F#" Value="member this.PlatformServices : Xamarin.Forms.Internals.IPlatformServices with get, set" Usage="Xamarin.Forms.Device.PlatformServices" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.ComponentModel.EditorBrowsable</AttributeName>
+          <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -577,6 +598,7 @@ button.HeightRequest = Device.OnPlatform (20,30,30);
       <MemberSignature Language="F#" Value="member this.RuntimePlatform : string" Usage="Xamarin.Forms.Device.RuntimePlatform" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
       </AssemblyInfo>
@@ -596,12 +618,13 @@ button.HeightRequest = Device.OnPlatform (20,30,30);
       <MemberSignature Language="F#" Value="static member SetFlags : System.Collections.Generic.IReadOnlyList&lt;string&gt; -&gt; unit" Usage="Xamarin.Forms.Device.SetFlags flags" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.ComponentModel.EditorBrowsable</AttributeName>
+          <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -626,11 +649,12 @@ button.HeightRequest = Device.OnPlatform (20,30,30);
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.ComponentModel.EditorBrowsable</AttributeName>
+          <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -656,12 +680,13 @@ button.HeightRequest = Device.OnPlatform (20,30,30);
       <MemberSignature Language="F#" Value="static member SetIdiom : Xamarin.Forms.TargetIdiom -&gt; unit" Usage="Xamarin.Forms.Device.SetIdiom value" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.ComponentModel.EditorBrowsable</AttributeName>
+          <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -683,12 +708,13 @@ button.HeightRequest = Device.OnPlatform (20,30,30);
       <MemberSignature Language="F#" Value="static member SetTargetIdiom : Xamarin.Forms.TargetIdiom -&gt; unit" Usage="Xamarin.Forms.Device.SetTargetIdiom value" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.ComponentModel.EditorBrowsable</AttributeName>
+          <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -710,6 +736,7 @@ button.HeightRequest = Device.OnPlatform (20,30,30);
       <MemberSignature Language="F#" Value="static member StartTimer : TimeSpan * Func&lt;bool&gt; -&gt; unit" Usage="Xamarin.Forms.Device.StartTimer (interval, callback)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
@@ -741,6 +768,7 @@ button.HeightRequest = Device.OnPlatform (20,30,30);
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -758,6 +786,7 @@ button.HeightRequest = Device.OnPlatform (20,30,30);
       <MemberSignature Language="F#" Value="val mutable UWP : string" Usage="Xamarin.Forms.Device.UWP" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
       </AssemblyInfo>
@@ -777,6 +806,7 @@ button.HeightRequest = Device.OnPlatform (20,30,30);
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>

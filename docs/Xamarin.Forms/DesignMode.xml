@@ -5,6 +5,7 @@
   <TypeSignature Language="F#" Value="type DesignMode = class" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
@@ -24,6 +25,7 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -31,7 +33,8 @@
       </ReturnValue>
       <Docs>
         <summary>Indicates whether the application is being run in a previewer.</summary>
-        <value><see langword="true" /> if the application is being run in a previewer. <see langword="false" /> if the application is being run on a device or emulator.</value>
+        <value>
+          <see langword="true" /> if the application is being run in a previewer. <see langword="false" /> if the application is being run on a device or emulator.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
